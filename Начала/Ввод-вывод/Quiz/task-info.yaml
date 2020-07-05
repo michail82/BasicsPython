@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: первое значение в строке, до первого пробела
+- text: только одну строку данных
+- text: функция input() не вводит данные
+- text: сразу все строки с данными
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+record: -1
